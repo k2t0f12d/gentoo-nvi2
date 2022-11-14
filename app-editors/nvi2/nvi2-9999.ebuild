@@ -21,6 +21,7 @@ SLOT="0"
 IUSE="iconv +widechar"
 
 CDEPEND="
+	dev-libs/libbsd
 	sys-libs/db:1
 	sys-libs/ncurses
 	iconv? ( virtual/libiconv )
